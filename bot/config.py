@@ -32,7 +32,7 @@ class Config:
             self.ARIA2_PORT = config("ARIA2_PORT", default=6800, cast=int)
             self.BOT_TOKEN = config("BOT_TOKEN")
             self.CACHE_DL = config("CACHE_DL", default=False, cast=bool)
-            self.CAP_DECO = config("CAP_DECO", default=None)
+            self.CAP_DECO = config("CAP_DECO", default="◉")
             self.C_LINK = config("C_LINK", default=None)
             self.CMD_SUFFIX = config("CMD_SUFFIX", default=str())
             self.COMP_MODE = config("COMPATIBILITY_MODE", default=True, cast=bool)
